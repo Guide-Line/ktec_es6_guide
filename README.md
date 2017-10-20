@@ -3,12 +3,13 @@
 
 - 지원
 
->browse( chrome ) 
+>browse( chrome ) </br>
+>File encoding: UTF-8
 
 
 
 
 - 목차
 
-    - ing
+    - ing...
 
