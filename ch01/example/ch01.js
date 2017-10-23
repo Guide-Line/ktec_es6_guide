@@ -20,7 +20,7 @@ class Menu{
         	})        
         })      
         
-        let temp = -1;
+        let temp = -1;//temp의 -1은 처음1번만 사용
         function selectMenu (n){
         	if(temp != -1){
                 var off = $(_this.menuSelector +'>a').eq(temp).find('img').attr('src').replace(/_on.jpg/,'_off.jpg')
@@ -36,7 +36,7 @@ class Menu{
 
 
 
-//메인 클래스
+//메인 클래스 메뉴 클래스는 상속받습니다.
 class Main extends Menu{
     
     constructor( menuSelector ) {
