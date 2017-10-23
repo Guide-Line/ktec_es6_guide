@@ -4,21 +4,44 @@
 	<title>메뉴</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+    
+    
+	<style>
+        #menu{position: relative; width:100%;}
+        #menu ul{overflow: hidden}
+        #menu ul li{list-style: none; float: left}
+    </style>
 	
-	<script src="ch01.js"></script>
+	
+	
 	
 </head>
 
 <body>
+
+
+
+    <div id="menu">
+        <ul>
+            <li><a href="javascript:;"><img src="images/tab_01_off.jpg" alt="메뉴1"></a></li>
+            <li><a href="javascript:;"><img src="images/tab_02_off.jpg" alt="메뉴2"></a></li>
+            <li><a href="javascript:;"><img src="images/tab_03_off.jpg" alt="메뉴3"></a></li>
+            <li><a href="javascript:;"><img src="images/tab_04_off.jpg" alt="메뉴4"></a></li>
+            <li><a href="javascript:;"><img src="images/tab_05_off.jpg" alt="메뉴5"></a></li>
+        </ul>
+    </div>
+    
+    
+    
+    
 	
-	
-	
+    
+    <script src="ch01.js"></script>
     <!-- Custom Script -->
     <script type="text/javascript">
         
-        let menu = new Main()
-        
-        
+        let main = new Main("#menu ul li")
     </script>	
 </body>
 </html>
