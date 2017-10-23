@@ -4,7 +4,7 @@
 - 지원
 
 >browse( chrome ) </br>
->File encoding: UTF-8
+>File encoding: UTF-8 </br>
 
 
 
@@ -14,7 +14,7 @@
 -   ch01
 
     이미지소스 : ch01/images/    
-    설명 : 이미지 소스를 활용하여 아래 와 같이 메뉴 오버시 아래와 같이 보이도록 코드를 작성하세요
+    설명 : 소스를 활용하여 아래처럼 구현해보자
     ![screen](ch01/images/screen.jpg)
     
 

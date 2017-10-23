@@ -1,9 +1,16 @@
-class Main{
-    
+class Main {
+
     constructor() {
         
-        
     }
-    
-    console.log('main')
+  
+}
+
+
+
+
+class Menu {
+
+
+
 }
