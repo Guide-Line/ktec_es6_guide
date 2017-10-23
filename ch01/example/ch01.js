@@ -1,9 +1,10 @@
 //메뉴에 사용되는 클래스
 class Menu{
 
-    constructor(menuSelector) {        
+    constructor(menuSelector) {
+        //2.메인에서 전달받은 변수가위치는하는곳입니다.
         this.menuSelector = menuSelector;
-        this.addEvent();
+        this.addEvent();//3.메뉴이벤트를 실행합니다.
     }
     
     addEvent(){       
@@ -41,7 +42,7 @@ class Main extends Menu{
     
     constructor( menuSelector ) {
         
-        super(menuSelector); //Menu 클래스의  변수로 전달역활
+        super(menuSelector); //1.Menu 클래스의  변수로 전달역활
         
     }
     
