@@ -9,7 +9,7 @@ class Menu{
     
     addEvent(){       
         
-        let _this = this         
+        let _this = this;   
         
         $(this.menuSelector).each( function(index) {
             //각각의 메뉴 클릭시
